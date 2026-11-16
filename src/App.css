@@ -1,0 +1,109 @@
+.strona {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.naglowek-strony,
+.stopka,
+.powitanie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.baner a {
+  color: #c8102e;
+}
+
+.naglowek-strony {
+  padding: 14px;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  background-color: #c8102e;
+}
+
+.naglowek-strony a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.naglowek-strony nav {
+  display: flex;
+  gap: 12px;
+}
+
+.baner,
+.sekcja-ciekawostki {
+  margin: 16px 0;
+  padding: 16px;
+  background-color: #eeeeee;
+}
+
+.baner h1 {
+  color: #c8102e;
+}
+
+.przycisk-przedstaw-sie {
+  padding: 8px;
+  color: white;
+  background-color: #c8102e;
+  border: 0;
+  cursor: pointer;
+}
+
+.sekcja-druzyny {
+  margin: 24px 0;
+}
+
+.wyszukiwarka {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 16px;
+}
+
+.wyszukiwarka input {
+  padding: 8px;
+}
+
+.lista-pilkarzy {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.karta-pilkarza {
+  padding: 12px;
+  border: 1px solid #cccccc;
+}
+
+.karta-pilkarza h3 {
+  margin: 5px 0;
+}
+
+.numer-pilkarza {
+  color: #c8102e;
+  font-weight: bold;
+}
+
+.pozycja-pilkarza,
+.opis-pilkarza {
+  margin: 5px 0;
+}
+
+.stopka {
+  border-top: 1px solid #cccccc;
+}
+
+@media (max-width: 500px) {
+  .lista-pilkarzy {
+    grid-template-columns: 1fr;
+  }
+}
